@@ -1,0 +1,116 @@
+body, html {
+  background-color: #E7ECDE; /*off white*/
+  height:100%
+}
+
+h2 {
+  color: #295A20; /*dark green*/
+  font-size: 36px;
+  font-weight: bold;
+  padding-left: 72px;
+}
+
+.button {
+  border: none;
+  background: none;
+  color: white;
+  margin-top: 12px;
+  margin-right: 12px;
+  padding: 5px;
+  text-align: center;
+  display: inline-block;
+  font-size: 24px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  float: right;
+  font-weight: bold;
+}
+
+.button1 {  /*Game Design*/
+  background: none;
+  color: #BB2E2E; /*red*/;
+}
+.button1:hover {
+  background-color: #BB2E2E; /*red*/
+  color: black;
+  border-radius: 5%;
+}
+
+.button2 {  /*Narratives*/
+  background: none;
+  color: #FACA3C; /*orange-yellow*/;
+}
+.button2:hover {
+  background-color: #FACA3C; /*orange-yellow*/
+  color: black;
+  border-radius: 5%;
+}
+
+.button3 {  /*Resume*/
+  background: none;
+  color: #389CC1; /*blue*/;
+}
+.button3:hover {
+  background-color: #389CC1; /*blue*/
+  color: black;
+  border-radius: 5%;
+}
+
+.button4 {  /*Home*/
+  background: none;
+  color: #8EBB75; /*light green*/
+}
+.button4:hover {
+  background-color: #8EBB75; /*light green*/
+  color: black;
+  border-radius: 5%;
+}
+
+.favicon {
+  height: 56px;
+  width: 56px;
+  object-fit: cover;
+  object-position: bottom;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.hero-banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("../images/herobanner.PNG");
+  height: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-box {
+  background-color: #8EBB75; /*light green*/
+  height: 10px;
+  width: 500px;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: verdana, arial, sans-serif;
+  font-variant: small-caps;
+  font-size: 28px;
+}
+
+.hero-title {
+  font-size: 16px;
+  font-variant: normal;
+}
+
+.paragraph {
+  padding-left: 112px;
+  padding-right: 112px;
+  text-indent: 40px;
+  font-size: 18px;
+  line-height: 1.5;
+}
