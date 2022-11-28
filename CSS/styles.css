@@ -59,6 +59,7 @@ h2 {
 .button4 {  /*Home*/
   background: none;
   color: #8EBB75; /*light green*/
+  text-decoration: underline;
 }
 .button4:hover {
   background-color: #8EBB75; /*light green*/

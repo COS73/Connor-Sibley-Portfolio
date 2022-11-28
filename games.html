@@ -3,7 +3,7 @@
   <head>
     <link rel="icon" type="image/x-con" href = "images/favicon.png"></link>
     <title>Connor Sibley Portfolio</title>
-    <link rel="stylesheet" href="CSS/stylesG.css"></link>
+    <link rel="stylesheet" href="CSS/games-styles.css" type="text/css"></link>
   </head>
   <body>
     <div class = "hero-banner">
@@ -22,5 +22,42 @@
     <p class = "paragraph">
       A lot of my learning experience at Pitt has focused on the narrative aspects of game design, meaning I can write a really good story. Therefore, a little over a month ago, I began teaching myself Unreal Engine 5 with the hopes of creating my own video game. What started as watching tutorials on YouTube and messing around in some of the presets the engine provided, quickly became more serious as I began to feel more comfortable with blueprints and the engine itself. Now I am comfortable with creating my own blueprints, UI elements, actors, and even my own map using the cube grid tools. Even though I have only spent a short amount of time working in Unreal Engine as a side project, I am really happy with how much I have been able to learn on my own. I still have a lot of plans and ideas for my game, including bosses, unique characters, more maps, and complex abilities. I am hoping an internship will give me more opportunity to explore game design first hand as well as gain experience working with game engines in a professional setting.
     </p>
+    <h2>Singularity Protocol</h2>
+    <p class="paragraph">
+      Singularity Protocol is a multiplayer first person hero shooter focusing on the crossing of gunplay with elemental abilities. Players will be able to make use of both their weaponry and abilities in order to control the map and manipulate the flow of the game. There are two teams of five/six players: the attackers and the defenders. The Attackers main goal is to plant a teleporter on to one of the two sites on the map. This teleporter will then spawn a boss which will attempt to destroy the map by reaching another part of the map. Defenders will focus on preventing attackers from setting up the teleport in a given amount of time, and if they are unable to do that, they will then have to defeat the boss by depleting its health to zero. The game mode will either be multiple rounds with elimination style deaths, or attackers and defenders will swap sides after one team wins, with infinite respawns. the boss will either attack players or the attackers will just have to protect and escort it. Characters in the game will not strictly fulfill specific roles like healer, tank, or damage, but instead will be flexible enough to perform multiple roles depending on the player's preferred playstyle in order to avoid team composition being determined by character choice. The goal is for team composition to be determined by each player's playstyle, as it can be exceedingly frustrating to have to fill a role that is not considered to be as fun or a player has little experience with that role. This is a side project, which I have been using to teach myself Unreal Engine 5, but I do plan to one day finish and publish this game.
+    </p>
+    <div>
+      <div class="paragraphLeft">
+        <h3>Switchback</h3>
+        <p class="paragraph">
+          Switchback is the first map I designed for this game. The idea is to have two sites, one on a lower elevation and a more open area, and one higher up within a tighter space. The mid area of the map has three sections: an open-air uphill climb, a tight corridor, and an indoor room. I created the map in Unreal Engine 5 using the Cube-Grid editor, which created a single static mesh for the entire map, making scaling the map appropriately much easier. This map is still a work in progress, with corners still needing to be smoothed out, more assets need to be added, diegetic lighting, and various other improvements. I also added basic lighting, so that indoor parts of the map are visible outside of the cube-grid editor.
+        </p>
+      </div>
+      <div class="imageRight">
+        <img class="fillImage" src="images/Switchback.png" alt = "top down view of the map in Unreal Engine 5">
+      </div>
+    </div>
+    <div>
+      <div class="paragraphLeft">
+        <h3>Sketch 1</h3>
+        <p class = "paragraph">
+          The sketch on the left is the first sketch draft of the map. This established the general shape of the map I envisioned, as well as a general idea of how each area would look. Dotted lines are walls that are underneath other parts of the map. The shaded regions are the site area itself. Squiggly lines represent half walls, or areas that players can jump across. Many of the boxes, such as the large diagonal box near B site, are not yet implemented in Unreal Engine 5, but are planned. This was my first attempt at drawing a map, and it was done so in a similar style to tactical shooter games like Counter Strike and Valorant. In this way, the map is built around three lanes (A, Mid, and B) and two loops (A-Mid and B-Mid) like those style of maps The reason I decided to do a second draft before translating the map into Unreal Engine was that I felt the map was too simple, and too geared toward the tactical shooter genre. Singularity Protocol is meant to be a faster paced shooter game, so I felt that upping the complexity of the map and moving away from the formulaic three lanes, two loops style would be more accurate to my game's style. I also was not entirely happy with A site, especially since it felt like there was too much cover for players to take advantage of the space.
+        </p>
+      </div>
+      <div class="imageRight">
+        <img class="fillImage" src="images/sketch1.jpg" alt = "My first hand drawn draft of the map">
+      </div>
+    </div>
+    <div>
+      <div class="paragraphLeft">
+        <h3>Sketch 2</h3>
+        <p class = "paragraph">
+          In my second sketch, I focused on increasing complexity in Mid and the attacker entrance into B site, as well as decreasing the amount of cover on A site. For mid, this created a multilayered mid, with the current open-air, corridors, and indoors set up. For the entrance to B, I moved the vent jump up spot into its own room, with windows that can see into the back of the large box near B-site, to make that area easier for attackers to take control of space on B-site. The vent is also now one-way, only players coming from the vent-room can take it up to top Mid. For A site, I decided to move the site off to the left side instead of in the center of the upper part of A. This means taking the site will require players to stay on site, as opposed to taking cover and holding from off site locations. This is the draft that is currently implemented in Unreal Engine 5. I plan to create another draft, focusing on mid to make it more manageable for players to maintain control of, and rotate to other sites. 
+        </p>
+      </div>
+      <div class="imageRight">
+        <img class="fillImage" src="images/sketch2.jpg" alt = "My second hand drawn draft of the map">
+      </div>
+    </div>
   </body>
 </html>
