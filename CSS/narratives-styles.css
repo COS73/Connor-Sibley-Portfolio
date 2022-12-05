@@ -117,5 +117,49 @@ h2 {
 }
 
 .works {
-  
+  border-color: #958100;
+  background: none;
+  font-size: 24px;
+  font-weight: bold;
+  color: #958100;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%
+  padding: 5px;
+}
+
+.works:focus {
+  border-color: ##7F0799;
+  background: none;
+  font-size: 24px;
+  font-weight: bold;
+  color: #7F0799;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%
+  padding: 5px;
+}
+
+.works:hover {
+  border: none;
+  background-color: #958100;
+  font-size: 24px;
+  font-weight: bold;
+  color: #FFF9EB;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%
+  padding: 5px;
+}
+
+.audio{
+  font-size:24px;
+  font-weight: bold;
+  color: #958100;
+  float: left;
+  size: 33%;
+  margin-left: 112px;
+  margin-top: 10px;
+  margin-bottom: 7px;
+  margin-right: 12px;
 }
